@@ -1,2 +1,1 @@
-# caregram_web
-demo website for caregram
+Demo for caregram website

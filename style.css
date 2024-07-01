@@ -1,0 +1,709 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFCFA;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-bottom: 20rem;
+}
+
+
+
+
+
+
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color:white;
+}
+
+.logoDiv {
+    margin-right: 20px;
+}
+
+.logo {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+.logo h2 {
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navLists .navLinks1
+{
+    background-color: #f8e2e1;
+    display: inline-block;
+    margin-left: 20px;
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    font-size: 18px;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.navLists .navLinks2
+{
+    background-color:#312c31;
+    display: inline-block;
+    margin-left: 20px;
+    text-decoration: none;
+    color:white;
+    font-size: 18px;
+    border: none;
+    padding: 10px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.navLists {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navLink {
+    text-decoration: none;
+    color: #333;
+    margin-right: 20px;
+}
+
+.navLink:hover {
+    box-shadow: 0 -5px 0px rgb(181, 37, 181) inset,
+    500px 0 0 rgba(246, 212, 238, 0.679) inset;
+    padding: 20px 25px;
+}
+
+.burgerMenuContainer {
+    display: none;
+}
+
+.burgerMenu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: none;
+}
+
+.burgerMenu.active {
+    display: block;
+}
+
+.burgerMenu li {
+    margin-bottom: 10px;
+}
+
+.burgerMenu a {
+    text-decoration: none;
+    color: #333;
+}
+
+.burgerMenu a:hover {
+    box-shadow: 0 -5px 0px rgb(181, 37, 181) inset,
+    500px 0 0 rgba(255, 255, 255, 0.679) inset;
+    padding: 5px 5px;
+}
+
+.toggleNavbar {
+    margin-right: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    display: none;
+}
+
+.burgerBar {
+    width: 30px;
+    height: 3px;
+    background-color: #333;
+    margin: 5px 0;
+}
+
+
+@media (max-width: 768px) {
+    .navbar {
+        display: none;
+    }
+    .toggleNavbar {
+        display: block;
+    }
+    .burgerMenuContainer {
+        display: block;
+    }
+}
+
+
+
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+
+.hero-image {
+    width: 50%;
+}
+
+.hero-image img {
+    width: 85%;
+    height: auto;
+    margin-left: 7.8rem;
+}
+
+.hero-image1 img {
+    width: 70%;
+    height: auto;
+    margin-left: 5rem;
+}
+
+.hero-image1 {
+    width: 50%;
+}
+
+.hero h1 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-left: 8rem;
+}
+
+.hero p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    padding-left: 128px;
+}
+
+.Touchbtn {
+    background-color:#784186;
+    display: inline-block;
+    margin-left: 8rem;
+    text-decoration: none;
+    color:white;
+    font-size: 18px;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.discover {
+    background-color: #f8e2e1;
+    display: inline-block;
+    margin-left: 20px;
+    text-decoration: none;
+    color:black;
+    font-size: 18px;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+.impact {
+    padding: 80px 0;
+    background-color: #fff;
+}
+
+.impact-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.impact-header h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.impact-header p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.impact-cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.impact-card {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 5px;
+    width: 30%;
+    text-align: center;
+}
+
+.impact-card h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.team {
+    padding: 80px 0;
+}
+
+.team-members {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.team-member {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 5px;
+    width: 23%;
+    text-align: center;
+}
+
+.team-member img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.team-member h3 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.team-member h4 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.team-member p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+
+
+.core {
+    display: block;
+    font-size: 3.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+} 
+
+.p8 {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+
+
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-image {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .principles-container,
+    .impact-cards,
+    .team-members {
+        flex-direction: column;
+    }
+
+    .principle,
+    .impact-card,
+    .team-member {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .nav-middle ul li,
+    .nav-right ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .nav-middle,
+    .nav-right {
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero h1 {
+        font-size: 36px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    .impact-header h2,
+    .impact-card h3 {
+        font-size: 24px;
+    }
+
+    .btn,
+    .discover {
+        font-size: 16px;
+    }
+}
+.Commcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .content {
+    flex: 1;
+    min-width: 300px;
+    margin-left: 9rem;
+  }
+  
+  .hero-image {
+    flex: 1;
+    min-width: 300px;
+  }
+  
+  .principles-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .principle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    background:#FFFCFA;
+  }
+  
+  .principle img {
+    margin-bottom: 10px;
+  }
+  
+  .principle h3 {
+    margin: 10px 0;
+  }
+  
+
+  @media (max-width: 768px) {
+    .principles-container {
+      grid-template-columns: 1fr;
+    }
+  
+    .principle {
+      margin: 10px 0;
+    }
+  }
+  
+
+
+
+.title1{
+display: grid;
+grid-template-columns: repeat(3,1fr);
+align-items: center;
+margin-right: -15rem;
+}
+
+.title1::after{
+content:"";
+height: 2px;
+background-color:purple;
+display: block;
+}
+
+.title2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    margin-right: -15rem;
+    }
+    
+.title2::after{
+    content:"";
+    height: 2px;
+    background-color:purple;
+    display: block;
+    }
+
+
+
+
+
+/* impact section */
+
+
+.impact-section {
+    background-color: #FFEDE6;
+    padding: 20px;
+    margin-bottom: 0px;
+    border-radius: 8px;
+}
+
+.impact-header h2 {
+    color: #333;
+    font-size: 35px;
+    margin-bottom: 10px;
+    margin-left: 1rem;
+}
+
+.impact-header p {
+    color: #666;
+    font-size: 16px;
+    margin-bottom: 20px;
+    margin-left: 10rem;
+}
+
+.impact-content {
+    display: flex;
+    align-items: flex-start;
+}
+
+.impact-content img {
+    width: 250px;
+    height: 250px;
+    border-radius: 75px;
+    margin-left: 9rem;
+    margin-top: -13rem;
+}
+
+.impact-details {
+    display: flex;
+    flex-direction: column;
+    margin-left: 21rem;
+}
+
+.detail-item {
+    background-color: #FFE4D0;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+
+.detail-item p {
+    margin: 0;
+    color: #333;
+    font-size: 14px;
+}
+
+@media (max-width: 600px) {
+    .impact-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .impact-content img {
+        margin-bottom: 20px;
+    }
+}
+
+/* impact section */
+
+
+
+
+@media (max-width: 480px) {
+    body {
+        font-size: 14px;
+    }
+
+    .container {
+        padding: 10px;
+    }
+
+    .header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .logoDiv {
+        margin-right: 0;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navLists .navLinks1,
+    .navLists .navLinks2 {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero h1 {
+        font-size: 28px;
+        padding-left: 0;
+    }
+
+    .hero p {
+        font-size: 16px;
+        padding-left: 0;
+    }
+
+    .Touchbtn,
+    .discover {
+        margin-left: 0;
+        font-size: 16px;
+    }
+
+    .hero-image img,
+    .hero-image1 img {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .impact-header h2 {
+        font-size: 24px;
+        margin-left: 0;
+    }
+
+    .impact-header p {
+        font-size: 14px;
+        margin-left: 0;
+    }
+
+    .impact-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .impact-card {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .team-members {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .team-member {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .Commcontainer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content {
+        margin-left: 0;
+    }
+
+    .principles-container {
+        grid-template-columns: 1fr;
+    }
+
+    .principle {
+        margin: 10px 0;
+    }
+
+    .title {
+        grid-template-columns: 1fr;
+        margin-right: 0;
+    }
+
+    .impact-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .impact-content img {
+        margin-left: 0;
+        margin-top: 0;
+        width: 100%;
+        height: auto;
+    }
+
+    .impact-details {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .detail-item p {
+        font-size: 12px;
+    }
+
+    footer p {
+        font-size: 12px;
+    }
+
+    .burgerMenuContainer {
+        display: block;
+    }
+
+    .burgerMenu {
+        display: block;
+    }
+
+    .toggleNavbar {
+        display: block;
+    }
+}

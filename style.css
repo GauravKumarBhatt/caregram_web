@@ -13,7 +13,7 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   /* padding: 20px; */
-  margin-bottom: 20rem;
+  margin-bottom: 80px;
 }
 
 .container h1 {
@@ -168,6 +168,7 @@ body {
 .hero-image img {
   width: 674px;
   height: auto;
+  margin-left: 159px;
 }
 
 .hero-image1 img {
@@ -271,7 +272,7 @@ body {
 }
 
 .team-member {
-  background-color: #f5f5f5;
+  background-color: rgba(0, 0, 0, 0);
   padding: 20px;
   border-radius: 5px;
   width: 23%;
@@ -280,9 +281,9 @@ body {
 }
 
 .team-member img {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  border-radius: 0 54px 0 54px;
   margin-bottom: 20px;
 }
 
@@ -518,6 +519,10 @@ body {
   margin: 10px 0;
 }
 
+#core-principles {
+  margin-left: 9rem;
+}
+
 @media (max-width: 768px) {
   .principles-container {
     grid-template-columns: 1fr;
@@ -683,6 +688,9 @@ body {
     margin-bottom: -6rem;
     padding: 20px 16px 16px 16px;
     width: auto;
+    position: relative;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0);
   }
 
   .logoDiv {
@@ -710,7 +718,7 @@ body {
   .hero {
     flex-direction: column;
     text-align: center;
-    padding: 24px 16px 24px 16px;
+    padding: 44px 16px 24px 16px;
     width: auto;
   }
 
@@ -756,6 +764,7 @@ body {
     width: 328px;
     margin-left: 0;
     height: 248px;
+    display: none;
   }
 
   /* impact section */
@@ -778,6 +787,8 @@ body {
 
   .impact-section {
     padding: 16px 24px;
+    margin-top: -1%;
+    margin-bottom: -1%;
   }
 
   .impact-content {
@@ -842,11 +853,11 @@ body {
   }
 
   .contact input {
-    width: 328px !important;
+    width: 100% !important;
   }
 
   .contact textarea {
-    width: 328px;
+    width: 100%;
     height: 114px;
     padding: 14px 16px 14px 16px;
     border-radius: 4px;
@@ -1029,7 +1040,7 @@ body {
     border-radius: 5px;
     width: 100%;
     text-align: center;
-    height: 200px;
+    height: 375px;
   }
 
   .team-member h3 {

@@ -764,6 +764,9 @@ body {
     width: 328px;
     margin-left: 0;
     height: 248px;
+  }
+
+  #core-last {
     display: none;
   }
 
@@ -829,7 +832,7 @@ body {
   }
 
   .contact-left img {
-    width: 164px;
+    width: 150px;
     height: auto;
     display: inline;
   }
@@ -881,7 +884,7 @@ body {
     text-align: center;
     align-items: center;
     max-height: 100px;
-    padding-top: 40px;
+    padding-top: 20px;
     border-top: 2px solid #fffcfa1f;
     width: 100%;
   }
@@ -892,7 +895,7 @@ body {
 
   .footer-social {
     width: 34px;
-    height: 34px;
+    height: auto;
     margin-top: -10px;
     padding-right: 10px;
   }

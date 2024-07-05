@@ -281,8 +281,8 @@ body {
 }
 
 .team-member img {
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   border-radius: 0 54px 0 54px;
   margin-bottom: 20px;
 }
@@ -763,7 +763,7 @@ body {
   .hero-image1 img {
     width: 328px;
     margin-left: 0;
-    height: 248px;
+    height: auto;
   }
 
   #core-last {
@@ -1043,7 +1043,7 @@ body {
     border-radius: 5px;
     width: 100%;
     text-align: center;
-    height: 375px;
+    height: 300px;
   }
 
   .team-member h3 {

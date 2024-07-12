@@ -31,9 +31,7 @@
 
       <div class="burgerMenuContainer">
         <div class="toggleNavbar" onclick="toggleBurgerMenu()">
-          <div class="burgerBar"></div>
-          <div class="burgerBar"></div>
-          <div class="burgerBar"></div>
+          <img src="images/burger_img.png">
         </div>
         <ul class="burgerMenu">
           <li><a href="#home" class="navLinkb">Home</a></li>
@@ -56,7 +54,11 @@
         <!-- <button class="discover">Discover Our Impact→</button> -->
       </div>
       <div class="hero-image">
-        <img src="images/Heroimg.png" alt="Hero Image" />
+        <picture>
+          <source media="(min-width: 650px)" srcset="images/Heroimg.png">
+          <source media="(min-width: 350px)" srcset="images/hero11.png">
+          <img src="images/Heroimg.png">
+        </picture>
       </div>
     </section>
 
@@ -65,7 +67,7 @@
       <div class="Commcontainer">
         <div class="content">
           <h1>Our Commitment to Holistic Care</h1>
-          <p style="font-size: 20px">
+          <p>
             At CareGram, we are dedicated to creating a world with compassionate, inclusive, and transformative care. Our holistic approach is guided by core principles that drive our mission:
           </p>
           <div class="principles-container">
@@ -109,7 +111,7 @@
         <img src="images\R1464.png" alt="Siddhi Impact" />
         <div>
           <div class="impact-header">
-            <h4 class="title2">IMPACT - SIDDHI</h4>
+            <h4 class="title2">PROJECT - SIDDHI</h4>
             <h2>
               Unlock Your Potential with Siddhi Be Recognized for Who You Are
             </h2>
@@ -144,7 +146,7 @@
 
         <div>
           <div class="impact-header">
-            <h4 class="title2">IMPACT - Curated Child Care Communities (C4)</h4>
+            <h4 class="title2">PROJECT - Curated Child Care Communities</h4>
             <h2>
               Revolutionizing Childcare with <br> Community-Driven Solutions
             <p>
@@ -242,7 +244,7 @@
 
         <p>
           Have questions, need assistance, or want to collaborate? 
-          Fill out the form below or contact us at <strong>listener@caregram.in.</strong> 
+          Fill out the form below or contact us at <strong>listener@caregram.in.</strong> <br>
           Let’s transform care together!
         </p>
 

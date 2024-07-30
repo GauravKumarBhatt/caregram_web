@@ -25,14 +25,14 @@ body {
   font-weight: 600;
   font-size: 46px;
   line-height: 64.8px;
-  color: #30312C;
+  color: #30312c;
 }
 
 .content p {
   font-family: "Switzer-Regular", sans-serif;
   font-size: 20px;
   line-height: 28px;
-  color: #6D6875;
+  color: #6d6875;
 }
 
 /* flow-design */
@@ -59,20 +59,22 @@ h2 span {
   position: relative;
   height: 50px; /* Adjust as needed */
   overflow: hidden;
+  display: inline;
 }
 
 .word {
   font-family: sans-serif;
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
+  top: 0.6rem;
+  left: 0.3rem;
+  width: 162px;
   opacity: 0;
-  animation: fade 6s infinite;
+  animation: fade 12s cubic-bezier(1, 0.02, 0, 1.01) infinite;
+  background-color: white;
 }
 
 .word1 {
-  animation-delay: 0s;
+  animation-delay: 4s;
 }
 
 .word2 {
@@ -80,18 +82,19 @@ h2 span {
 }
 
 .word3 {
-  animation-delay: 4s;
+  animation-delay: 0s;
 }
 
 @keyframes fade {
-  0%, 100% {
-      opacity:0;
+  0%,
+  100% {
+    opacity: 0;
   }
-  10%, 90% {
-      opacity:1;
+  30%,
+  70% {
+    opacity: 1;
+  }
 }
-}
-
 
 /* flow-design */
 
@@ -119,10 +122,10 @@ h2 span {
 }
 
 .principle p {
-  font-family: 'Switzer-Regular', sans-serif;
+  font-family: "Switzer-Regular", sans-serif;
   font-size: 16px;
   line-height: 22.4px;
-  color: #6D6875;
+  color: #6d6875;
   text-align: start;
 }
 
@@ -256,8 +259,6 @@ h2 span {
   justify-content: space-between;
 }
 
-
-
 .hero-image img {
   max-width: 48vw;
   height: auto;
@@ -383,26 +384,26 @@ h2 span {
 }
 
 .team-member h3 {
-  font-family: 'Switzer-Bold', sans-serif;
-    font-size: 32px;
-    line-height: 38.4px;
-    font-weight: bold;
-    margin-bottom: 10px;
-    color: #30312C;
+  font-family: "Switzer-Bold", sans-serif;
+  font-size: 32px;
+  line-height: 38.4px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #30312c;
 }
 
 .team-member p2 {
-  font-family: 'Switzer-Italic', sans-serif;
-  color: #30312C;
+  font-family: "Switzer-Italic", sans-serif;
+  color: #30312c;
   font-size: 20px;
   line-height: 28px;
 }
 
 .container p8 {
-  font-family: 'Switzer-Regular';
-    font-size: 20px;
-    line-height: 28px;
-    color: #6D6875;
+  font-family: "Switzer-Regular";
+  font-size: 20px;
+  line-height: 28px;
+  color: #6d6875;
 }
 
 .team-member h4 {
@@ -417,18 +418,18 @@ h2 span {
 }
 
 .core {
-    font-family: 'Switzer-Semibold', sans-serif;
-    font-size: 54px;
-    line-height: 64.8px;
-    display: block;
-    margin-block-start: 0.83em;
-    margin-block-end: 0.83em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
-    unicode-bidi: isolate;
-    color: #30312C;
-    letter-spacing: -2px;
+  font-family: "Switzer-Semibold", sans-serif;
+  font-size: 54px;
+  line-height: 64.8px;
+  display: block;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  unicode-bidi: isolate;
+  color: #30312c;
+  letter-spacing: -2px;
 }
 
 .p8 {
@@ -441,18 +442,18 @@ h2 span {
 }
 
 .contact h1 {
-  font-family: 'Switzer-Semibold', sans-serif;
-    color: #30312c;
-    letter-spacing: -2px;
-    font-size: 54px;
-    line-height: 64px;
+  font-family: "Switzer-Semibold", sans-serif;
+  color: #30312c;
+  letter-spacing: -2px;
+  font-size: 54px;
+  line-height: 64px;
 }
 
 .contact p {
-  font-family: 'Switzer-Regular', sans-serif;
-    font-size: 20px;
-    line-height: 28px;
-    color: #6D6875;
+  font-family: "Switzer-Regular", sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+  color: #6d6875;
 }
 
 /* form */
@@ -486,7 +487,7 @@ h2 span {
 }
 
 .contact-right label {
-  font-family: 'Switzer-Regular', sans-serif;
+  font-family: "Switzer-Regular", sans-serif;
   font-size: 16px;
   margin-bottom: 6px;
   line-height: 22.4px;
@@ -495,13 +496,13 @@ h2 span {
 }
 
 .contact input {
-  font-family: 'Switzer-Regular', sans-serif;
-    font-size: 16px;
-    width: 48vw;
-    padding: 14px 16px 14px 16px;
-    border-radius: 4px;
-    border: 1px solid #b5838d;
-    background-color: rgba(0, 0, 0, 0);
+  font-family: "Switzer-Regular", sans-serif;
+  font-size: 16px;
+  width: 48vw;
+  padding: 14px 16px 14px 16px;
+  border-radius: 4px;
+  border: 1px solid #b5838d;
+  background-color: rgba(0, 0, 0, 0);
 }
 
 .contact textarea {
@@ -514,18 +515,18 @@ h2 span {
 }
 
 .contact button {
-  font-family: 'Switzer-Semibold', sans-serif;
-    background-color: #784186;
-    color: #fff;
-    padding: 8px 16px 8px 16px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 18px;
-    width: 84px;
-    height: 38px;
-    line-height: 24px;
-    margin-top: 30px;
+  font-family: "Switzer-Semibold", sans-serif;
+  background-color: #784186;
+  color: #fff;
+  padding: 8px 16px 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 18px;
+  width: 84px;
+  height: 38px;
+  line-height: 24px;
+  margin-top: 30px;
 }
 
 /* footer */
@@ -575,16 +576,12 @@ h2 span {
   padding-right: 10px;
 }
 
-
 .copyright {
   font-size: 16px;
   line-height: 21.12px;
-  font-family: 'Switzer-Regular', sans-serif;
-  color: #FFE6D8;
+  font-family: "Switzer-Regular", sans-serif;
+  color: #ffe6d8;
 }
-
-
-
 
 .Commcontainer {
   display: flex;
@@ -626,17 +623,16 @@ h2 span {
 }
 
 .principle h3 {
-  font-family: 'Switzer-Bold', sans-serif;
+  font-family: "Switzer-Bold", sans-serif;
   font-size: 20px;
   line-height: 24px;
   margin: 10px 0;
-  color: #30312C;
+  color: #30312c;
 }
 
 #core-principles {
   margin-left: 9rem;
 }
-
 
 .title1 {
   display: grid;
@@ -653,16 +649,14 @@ h2 span {
 }
 
 .title2 {
-  font-family: 'Switzer-Medium', sans-serif;
+  font-family: "Switzer-Medium", sans-serif;
   font-size: 16px;
   line-height: 21.12px;
   display: grid;
-  color: #312C31;
+  color: #312c31;
   grid-template-columns: repeat(2, 1fr);
   align-self: flex-start;
-  }
-
-
+}
 
 /* impact section */
 .heading-line-text {
@@ -701,7 +695,7 @@ h2 span {
 }
 
 .impact-header h2 {
-  font-family: 'Switzer-Semibold';
+  font-family: "Switzer-Semibold";
   color: #30312c;
   font-size: 40px;
   line-height: 48px;
@@ -710,8 +704,8 @@ h2 span {
 }
 
 .impact-header p {
-  font-family: 'Switzer-Regular', sans-serif;
-  color: #6D6875;
+  font-family: "Switzer-Regular", sans-serif;
+  color: #6d6875;
   font-size: 20px;
   line-height: 28px;
   margin-bottom: 20px;
@@ -733,7 +727,7 @@ h2 span {
 }
 
 .impact-details {
-  font-family: 'Switzer-Medium', sans-serif;
+  font-family: "Switzer-Medium", sans-serif;
   font-size: 20px;
   line-height: 28px;
   display: flex;
@@ -765,13 +759,11 @@ h2 span {
 }
 
 strong {
-  font-family: 'Switzer-ExtraboldItalic', sans-serif;
+  font-family: "Switzer-ExtraboldItalic", sans-serif;
   color: #784186;
   font-size: 20px;
   line-height: 28px;
 }
-
-
 
 @media (max-width: 480px) {
   body {
@@ -802,10 +794,10 @@ strong {
   }
 
   .logoDiv {
-    font-family: 'Switzer-Bold', sans-serif;
-        font-size: 20px;
-        line-height: 44px;
-        align-self: flex-start;
+    font-family: "Switzer-Bold", sans-serif;
+    font-size: 20px;
+    line-height: 44px;
+    align-self: flex-start;
   }
 
   .navbar {
@@ -815,8 +807,6 @@ strong {
   .toggleNavbar {
     display: block;
   }
-
-  
 
   .navLists .navLinks1,
   .navLists .navLinks2 {
@@ -834,10 +824,10 @@ strong {
   }
 
   .hero h1 {
-    font-family: 'Switzer-Semibold', sans-serif;
+    font-family: "Switzer-Semibold", sans-serif;
     font-size: 45px;
     line-height: 52px;
-    color: #30312C;
+    color: #30312c;
     /* letter-spacing: -2px; */
     padding-left: 0;
     max-width: 91.11vw;
@@ -857,25 +847,25 @@ strong {
   }
 
   .container-hero p {
-    font-family: 'Switzer-Bold', sans-serif;
-        font-size: 16px;
-        line-height: 19.2px;
-        color: #6D6875;
-        text-align: start;
+    font-family: "Switzer-Bold", sans-serif;
+    font-size: 16px;
+    line-height: 19.2px;
+    color: #6d6875;
+    text-align: start;
   }
 
   .Touchbtn {
-    font-family: 'Switzer-Semibold', sans-serif;
-        background-color: #784186;
-        display: flex;
-        margin-left: 0px;
-        text-decoration: none;
-        color: white;
-        font-size: 15px;
-        border: none;
-        padding: 8px 16px 8px 16px;
-        border-radius: 4px;
-        cursor: pointer;
+    font-family: "Switzer-Semibold", sans-serif;
+    background-color: #784186;
+    display: flex;
+    margin-left: 0px;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    border: none;
+    padding: 8px 16px 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
   }
 
   .discover {
@@ -892,7 +882,7 @@ strong {
     cursor: pointer;
   }
 
-  .hero-image img{
+  .hero-image img {
     max-width: 100vw;
     margin-left: -16px;
     height: auto;
@@ -920,22 +910,22 @@ strong {
   }
 
   .title2 {
-    font-family: 'Switzer-Mediun', sans-serif;
+    font-family: "Switzer-Mediun", sans-serif;
     font-size: 10px;
     line-height: 14px;
     letter-spacing: 2px;
-    color: #312C31;
+    color: #312c31;
   }
   .impact-header h2 {
-    font-family: 'Switzer-Semibold', sans-serif;
-        font-size: 20px;
-        line-height: 24px;
-        color: #30312C;
+    font-family: "Switzer-Semibold", sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    color: #30312c;
   }
 
   .impact-header p {
-    font-family: 'Switzer-Regular', sans-serif;
-    color: #6D6875;
+    font-family: "Switzer-Regular", sans-serif;
+    color: #6d6875;
     font-size: 14px;
     line-height: 19.6px;
     margin-bottom: 20px;
@@ -973,9 +963,9 @@ strong {
   }
 
   .detail-item p {
-    font-family: 'Switzer-Medium', sans-serif;
-        font-size: 14px;
-        line-height: 19.6px;
+    font-family: "Switzer-Medium", sans-serif;
+    font-size: 14px;
+    line-height: 19.6px;
   }
 
   /* form */
@@ -1012,7 +1002,7 @@ strong {
   }
 
   .contact-right label {
-    font-family: 'Switzer-Regular', sans-serif;
+    font-family: "Switzer-Regular", sans-serif;
     font-size: 12px;
     margin-bottom: 6px;
     line-height: 16.8px;
@@ -1024,16 +1014,16 @@ strong {
     width: 328px;
     height: 44px;
     padding: 12px 16px 12px 16px;
-    border-color: #B5838D;
+    border-color: #b5838d;
   }
 
   .contact textarea {
     width: 328px;
-        height: 86px;
-        padding: 12px 16px 12px 16px;
-        border-radius: 4px;
-        border: 1px solid #b5838d;
-        background-color: rgba(0, 0, 0, 0);
+    height: 86px;
+    padding: 12px 16px 12px 16px;
+    border-radius: 4px;
+    border: 1px solid #b5838d;
+    background-color: rgba(0, 0, 0, 0);
   }
 
   .footer {
@@ -1067,8 +1057,6 @@ strong {
     margin-top: -10px;
     padding-right: 10px;
   }
-
-  
 
   .burgerMenu {
     display: block;
@@ -1142,17 +1130,17 @@ strong {
   }
 
   .container p8 {
-    font-family: 'Switzer-Regular';
-        font-size: 14px;
-        line-height: 19.6px;
-        color: #6D6875;
+    font-family: "Switzer-Regular";
+    font-size: 14px;
+    line-height: 19.6px;
+    color: #6d6875;
   }
 
   .team-member p2 {
-    font-family: 'Switzer-Italic';
+    font-family: "Switzer-Italic";
     font-size: 14px;
     line-height: 19.6px;
-    color: #30312C;
+    color: #30312c;
   }
 
   .team-member h4 {
@@ -1176,12 +1164,12 @@ strong {
   }
 
   .principle h3 {
-    font-family: 'Switzer-Bold', sans-serif;
-        font-size: 16px;
-        line-height: 19.2px;
-        color: #30312C;
-        margin: 10px 0;
-        align-self: flex-start;
+    font-family: "Switzer-Bold", sans-serif;
+    font-size: 16px;
+    line-height: 19.2px;
+    color: #30312c;
+    margin: 10px 0;
+    align-self: flex-start;
   }
 
   .principle p {
@@ -1190,17 +1178,17 @@ strong {
   }
 
   .content h1 {
-    font-family: 'Switzer-Semibold', sans-serif;
-        font-size: 20px;
-        line-height: 24px;
-        color: #30312C;
+    font-family: "Switzer-Semibold", sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    color: #30312c;
   }
 
   .content p {
     font-family: "Switzer-Regular", sans-serif;
     font-size: 14px;
     line-height: 19.6px;
-    color: #6D6875;
+    color: #6d6875;
   }
 
   .container h1 {
@@ -1241,15 +1229,15 @@ strong {
   }
 
   .team-member h3 {
-    font-family: 'Switzer-Bold', sans-serif;
+    font-family: "Switzer-Bold", sans-serif;
     font-size: 16px;
     line-height: 19.2px;
-    color: #30312C;
+    color: #30312c;
   }
 
   .core {
-    font-family: 'Switzer-Semibold';
-    color: #30312C;
+    font-family: "Switzer-Semibold";
+    color: #30312c;
     display: flex;
     font-size: 20px;
     line-height: 24px;
@@ -1258,19 +1246,19 @@ strong {
   /* contact css */
 
   .contact h1 {
-    font-family: 'Switzer-Semibold', sans-serif;
-        display: flex;
-        text-align: start;
-        color: #30312C;
-        font-size: 20px;
-        line-height: 24px;
+    font-family: "Switzer-Semibold", sans-serif;
+    display: flex;
+    text-align: start;
+    color: #30312c;
+    font-size: 20px;
+    line-height: 24px;
   }
 
   .contact p {
-    font-family: 'Switzer-Regular', sans-serif;
-        line-height: 19.6px;
-        color: #6D6875;
-        font-size: 14px;
+    font-family: "Switzer-Regular", sans-serif;
+    line-height: 19.6px;
+    color: #6d6875;
+    font-size: 14px;
   }
 
   form {
@@ -1284,9 +1272,8 @@ strong {
     font-weight: normal;
   }
 
-
   button[type="submit"] {
-    font-family: 'Switzer-Semibold', sans-serif;
+    font-family: "Switzer-Semibold", sans-serif;
     background-color: #784186;
     color: #fff;
     padding: 8px 16px 8px 16px;
@@ -1338,18 +1325,18 @@ strong {
   }
 
   strong {
-    font-family: 'Switzer-ExtraboldItalic';
-        color: #784186;
-        font-size: 14px;
-        line-height: 19.6px;
-        /* font-style: italic; */
+    font-family: "Switzer-ExtraboldItalic";
+    color: #784186;
+    font-size: 14px;
+    line-height: 19.6px;
+    /* font-style: italic; */
   }
 
   .copyright {
     font-size: 12px;
     line-height: 15.84px;
-    font-family: 'Switzer-Regular', sans-serif;
-    color: #FFE6D8;
+    font-family: "Switzer-Regular", sans-serif;
+    color: #ffe6d8;
   }
 
   /* flow-design */
